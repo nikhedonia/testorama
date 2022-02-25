@@ -1,0 +1,22 @@
+{
+  "name": "@testorama/server",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:diff": "jest -o ",
+    "build": "babel src --out-dir dist --ignore 'src/**/*.test.js'"
+  },
+  "packageManager": "yarn@3.1.1",
+  "dependencies": {
+    "@testorama/superlib": "0.0.1",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1"
+  }
+}
